@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#main-container {
+    width: 50%;
+    height: 400px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+   
+  
+}
+
+#content-container {
+    max-height: 300px; /* 원하는 최대 높이로 설정 */
+    overflow-y: auto; /* 세로 스크롤을 표시하도록 설정 */
+}
+
+
+
+#msg {
+    width: 50%;
+}
+
+
+.container {
+    visibility: hidden;
+   
+}
+
+.connectButton {
+    width: 200px;
+    height: 150px;
+    margin-left: 40%;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.connectButton img {
+    max-width: 100%;
+    max-height: 100%;
+}
